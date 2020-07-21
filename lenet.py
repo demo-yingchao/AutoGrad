@@ -53,7 +53,5 @@ acc = np.mean(predict_id == test_id)
 print(acc)
 print('test accuracy %f' % acc)
 
-'''
 for v in var:
   np.save(v.name+'.npy', v.val)
-'''
